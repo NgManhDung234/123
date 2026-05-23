@@ -1,0 +1,55 @@
+.siderLogo {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 4px;
+}
+
+.siderBottom {
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  right: 0;
+  padding: 0 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 8px;
+}
+
+.header {
+  background: #fff;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  height: 56px;
+  line-height: 56px;
+}
+
+.content {
+  margin: 20px 24px;
+}
+
+.statCard {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  :global(.ant-statistic-title) {
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 13px;
+  }
+
+  :global(.ant-statistic-content) {
+    font-size: 26px;
+  }
+}
+
+.pendingRow {
+  background-color: #fffbe6;
+
+  &:hover td {
+    background-color: #fff3cd !important;
+  }
+}
